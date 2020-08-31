@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800');
+
+*{box-sizing: border-box;}
+body{font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
+font-size:14px;}
+a{color:inherit}
+#cover{
+    background:url("../images/imagecity.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top{line-height: 40px; padding:10px 0; color:#fff; font-weight: 400; position:fixed; width: 100%; transition:all 2s; z-index: 100;}
+.top.changecolor{
+    background:rgba(0,0,0,.5);
+}
+.logo img{height: 40px;}
+.logo span{font-size:20px; font-weight: 700; padding-left:10px;}
+.logo a:hover{color:inherit; text-decoration: none;}
+.top .menu a{padding:0 5px; font-weight: 700; font-size: 13px;}
+.top .menu a:hover{color:#E42125; text-decoration: none;}
+
+.cover-info{text-align: center; padding:100px 0 300px 0;}
+.cover-info h1{
+    font-size:50px;
+    color:#E42125;
+    font-weight: 800;
+}
+.cover-info h2{
+        font-size:20px;
+    color:#fff;
+    font-weight: 800;
+    margin-bottom:25px;
+}
+.cover-info a{
+    color:#fff;
+    font-weight: 700;
+    background:#E42125;
+    display: inline-block;
+    padding:5px 15px;
+    border-radius:20px;
+    font-size:13px;
+}
+
+#whatis{   margin-top:-80px; margin-bottom:50px;}
+#whatis .inside{ 
+     box-shadow:0 0 15px rgba(0,0,0,.5); margin:auto;
+    background:#fff;
+    max-width: 70%;
+    overflow: hidden;
+
+}
+#whatis .infoimg{
+        background:#fff url('../images/infoimage.png') top center;
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+#whatis h1{
+    font-size:18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom:20px;
+    margin-left:30px;
+}
+#whatis h1 span{font-size:14px; color:#E42125; display: block;}
+#whatis .info{
+    padding:30px;
+
+}
+#whatis p{margin-left:30px;}
+
+#why, #downloads{
+    background:url('../images/city2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color:#fff;
+}
+#why h1, #downloads h1{
+    font-size:50px;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+#why h1 span, #downloads h1 span{font-size:14px; display: block;}
+#why .whyinfo, #downloads .downinfo{padding:50px;}
+
+#vision{
+    text-align: center;
+    padding:50px 0;
+}
+#vision h1{
+    font-size:50px;
+    font-weight: 700;
+    margin-bottom:40px;
+}
+#vision h1 span{font-size:25px; display: block; color:#E42125;}
+#vision h2{
+    color:#FA2D2A; 
+    font-size:18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top:20px;
+}
+
+#roadmap{
+   
+    padding:50px 0;
+    border-top:10px solid #FA2D2A;
+    box-shadow:0 0 30px rgba(0,0,0,.2);
+}
+
+#roadmap h1, #team h1, #faq h1, #contact h1{
+     text-align: center;
+    font-size:50px;
+    font-weight: 700;
+    margin-bottom:40px;
+}
+#roadmap h1 span, #team h1 span, #faq h1 span, #contact h1 span{font-size:25px; display: block; color:#E42125;}
+#roadmap h2{
+    color:#FA2D2A; 
+    font-size:18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top:20px;
+}
+#roadmap .goal{
+    position:relative;
+    border-left:#FA2D2A 1px dashed;
+}
+#roadmap .goal:before{
+    display:block;
+    position:absolute;
+    background:#FA2D2A;
+    width:10px; height:10px;
+    border-radius:50%;
+    top:-5px; left:-5px;
+    content:"";
+    
+}
+#roadmap .quarter{
+    background:#FA2D2A;
+    color:#fff;
+    font-weight: 800;
+    padding:5px;
+}
+
+#team, #faq, #contact{padding-top:50px;}
+#team .team-member{padding:30px 10px;}
+#team h1{margin-bottom: 15px;}
+#team p{text-align: center; max-width: 300px; margin: 0 auto 30px auto;}
+#team .teampic{float:left;}
+#team h2 span{
+    background:#CE2525; 
+    color:#fff; 
+    font-size:16px; 
+    font-weight: 700;
+    display: inline-block;
+   margin-top:15px;
+    padding:5px 20px 5px 10px;
+    border-radius:0 15px 15px 0;
+}
+#team .job{font-weight: 700; margin-left:150px;}
+#team .email{margin-left:19px;}
+#team .email:hover{color:#FA2D2A;}
+#team .socialmedia{margin-left:150px;}
+#team .socialmedia img{height: 15px; margin:0 5px;}
+
+#downloads h2{margin-bottom:30px;}
+#downloads h2 span{
+    background:#fff;
+    padding:10px;
+    border-radius:20px;
+    color:#FA2D2A;
+    font-size:16px;
+    font-weight: 700;
+    
+}
+
+#faq{padding-bottom:60px;}
+#faq h1{margin-bottom:30px; text-align: center;}
+#faq .faqnav{
+    text-align: center;
+    margin-bottom:40px;
+}
+#faq .faqnav a{
+    display: inline-block;
+    padding:10px 10px 5px 10px;
+    font-weight: 700;
+}
+#faq .faqnav a:hover{
+    color:#E42125; text-decoration: none;
+}
+#faq .faqnav a.active{
+    border-bottom:#E42125 2px solid;
+}
+#faq .faqcontent {display: none;}
+#faq .faqcontent.cont-general{display: flex;}
+#faq .faqcontent div{
+    padding-left:50px; padding-right:50px;
+}
+
+#faq .faqcontent h2{
+    font-size:16px;
+    font-weight: 700;
+}
+
+#contact{
+    text-align: center;
+    padding:30px 0 50px;
+}
+#contact h1{margin-bottom:50px;}
+#contact a{display: inline-block; margin:0 20px;}
+#contact img{height: 85px;}
+
+footer{
+    line-height: 40px;
+    padding:30px 0;
+    background-image: linear-gradient(to right, #FA2D2A , #FF5B38);
+    color:#fff;
+}
+footer .logo{color:#fff;}
